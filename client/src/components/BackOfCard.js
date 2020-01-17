@@ -1,9 +1,10 @@
 import React from 'react'
 
-const BackOfCard = () => {
+const BackOfCard = ({handleClick}) => {
     return (
-        <div>
-            <p>Hello I am </p>
+        <div className='border2 card'>
+            <p>Don't look back here!!!!!!</p>
+            <button onClick={handleClick}>flip me</button>
         </div>
     )
 }

@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <p>World Cup</p>
-      <CardFlip/>
+      
       <div className='hi'>
       <Chart/>
       </div>

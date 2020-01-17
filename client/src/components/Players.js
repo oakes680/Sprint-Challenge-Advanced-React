@@ -23,7 +23,7 @@ class Players extends React.Component {
 
     render() {
          return (
-             <div className="border flexy">
+             <div className="flexy">
                  {this.state.players.map(player => (
                      <Card key={player.id} player={player}/>
                  ))}        
